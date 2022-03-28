@@ -6,7 +6,7 @@ public enum DataStorage {
     SELENIUM("https://www.selenium.dev/documentation/en/webdriver/ ", "WebDriver | Selenium");
 
 
-    public String expectedTitle;
+    private String expectedTitle;
     private String url;
 
     DataStorage(String url, String expectedTitle) {
